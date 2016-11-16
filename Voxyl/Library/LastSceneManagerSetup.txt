@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/LlamaWorld.unity
+- path: Assets/Scenes/NewWorld.unity
   isLoaded: 1
   isActive: 1
