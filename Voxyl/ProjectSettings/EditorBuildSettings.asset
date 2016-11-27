@@ -9,3 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
   - enabled: 1
     path: Assets/Scenes/LlamaWorld.unity
+  - enabled: 1
+    path: Assets/Scenes/Josh_VR_Attempt.unity
+  - enabled: 1
+    path: Assets/Scenes/IntroMenu.unity
