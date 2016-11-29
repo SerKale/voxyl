@@ -118,7 +118,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 114000014095444614}
-  m_Cam: {fileID: 0}
   m_VrInput: {fileID: 114000012339764006}
 --- !u!114 &114000014095444614
 MonoBehaviour:

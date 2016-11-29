@@ -53,6 +53,10 @@ public class DragAndDroppable : MonoBehaviour {
 	private void HandleClick() {
 		selected = !selected;
 		print("Object " + (selected ? "selected" : "un-selected"));
+		// print(halo.Size);
+		/*if(selected) {
+			
+		}*/
 		// print(transform.position.x);
 		// print(
 	}

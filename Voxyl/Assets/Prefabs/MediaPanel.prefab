@@ -22,6 +22,7 @@ GameObject:
   - 33: {fileID: 33000010887707396}
   - 64: {fileID: 64000010676890410}
   - 23: {fileID: 23000011736506256}
+  - 114: {fileID: 114000012909309090}
   m_Layer: 0
   m_Name: MediaPanel
   m_TagString: Untagged
@@ -90,3 +91,17 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114000012909309090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012265940194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2982e30355c4ad784b4857ad430b5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mediaTemplate: {fileID: 4000014127577480, guid: a36e9a482e21d4c599415ef6abe90f27,
+    type: 2}
+  url: TempAssets/chandra.jpg

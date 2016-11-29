@@ -22,8 +22,9 @@ GameObject:
   - 33: {fileID: 33000010831353792}
   - 64: {fileID: 64000011386596460}
   - 23: {fileID: 23000011284127474}
+  - 114: {fileID: 114000012824001758}
   m_Layer: 0
-  m_Name: Prefab
+  m_Name: Media
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,3 +91,14 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114000012824001758
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011085907550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce85bd973d4f44769a34f53c5337cd1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
