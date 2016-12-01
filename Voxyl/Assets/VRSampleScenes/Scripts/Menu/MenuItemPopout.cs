@@ -5,10 +5,12 @@ namespace VRStandardAssets.Menu
 {
     // This class 'pops' each of the menu items out
     // when the user looks at them.
+
+	[RequireComponent (typeof(VRInteractiveItem))]
     public class MenuItemPopout : MonoBehaviour
     {
-        [SerializeField] private Transform m_Transform;         // Used to control the movement whatever needs to pop out.
-        [SerializeField] private VRInteractiveItem m_Item;      // The VRInteractiveItem of whatever should pop out.
+		private Transform m_Transform; // = transform;         // Used to control the movement whatever needs to pop out.
+		private VRInteractiveItem m_Item; // = GetComponent<VRInteractiveItem>();      // The VRInteractiveItem of whatever should pop out.
         [SerializeField] private float m_PopSpeed = 8f;         // The speed at which the item should pop out.
         [SerializeField] private float m_PopDistance = 0.5f;    // The distance the item should pop out.
 
@@ -20,6 +22,9 @@ namespace VRStandardAssets.Menu
 
         private void Start ()
         {
+			m_Transform = transform;
+			m_Item = GetComponent<VRInteractiveItem>(); 
+
             // Store the original position as the one that is not popped out.
             m_StartPosition = m_Transform.position;
 

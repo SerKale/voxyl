@@ -13,11 +13,16 @@ namespace VRStandardAssets.Utils
         [SerializeField] private bool m_UseNormal;                  // Whether the reticle should be placed parallel to a surface.
         [SerializeField] private Image m_Image;                     // Reference to the image component that represents the reticle.
         [SerializeField] private Transform m_ReticleTransform;      // We need to affect the reticle's transform.
-        [SerializeField] private Transform m_Camera;                // The reticle is always placed relative to the camera.
+        private Transform m_Camera;                // The reticle is always placed relative to the camera.
 
 
         private Vector3 m_OriginalScale;                            // Since the scale of the reticle changes, the original scale needs to be stored.
         private Quaternion m_OriginalRotation;                      // Used to store the original rotation of the reticle.
+
+		private void Start() 
+		{
+			m_Camera = Camera.main.transform;   
+		}
 
 
         public bool UseNormal

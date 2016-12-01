@@ -1,0 +1,10 @@
+These FXB or 3DS files can be loaded in Unity.  If you are using Unity, make sure you right click to 'Import New Assest' to get the FXB/3DS, then import your own textures.  Now, apply each texture to the relevant material in the materials folder in Unity.  
+
+P.S:  UV Maps are included to use as a template, in case you want to create your own textures to apply afterwards to the room.
+
+No textures included for this model.
+FXB recommended if using Unity.
+
+Enjoy.
+
+Made by Nicole
