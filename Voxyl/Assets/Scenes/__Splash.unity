@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdown: 5
-  nextName: IntroMenu
+  nextName: _HomeMenu
 --- !u!114 &2147002987
 MonoBehaviour:
   m_ObjectHideFlags: 0
