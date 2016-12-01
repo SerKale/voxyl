@@ -54,9 +54,14 @@ public class DragAndDroppable : MonoBehaviour {
 		selected = !selected;
 		print("Object " + (selected ? "selected" : "un-selected"));
 		// print(halo.Size);
-		/*if(selected) {
-			
-		}*/
+		if(selected) {
+			var renderer = GetComponent<Renderer>();
+			print(renderer.material.color);
+			// renderer.material.color -= new Color(0,0,0,.5f);
+		} else {	
+			var renderer = GetComponent<Renderer>();
+			// renderer.material.color += .5f;
+		}
 		// print(transform.position.x);
 		// print(
 	}
@@ -80,7 +85,7 @@ public class DragAndDroppable : MonoBehaviour {
 					distance -= 1f;
 					break;
 			}
-			print("Size is now at " + relativeSize);
+			// print("Size is now at " + relativeSize);
 		}
 	}
 	

@@ -39,9 +39,40 @@ public class AddPhotoButton : MonoBehaviour {
 		// Instantiate(img);
 		
 
-		Instantiate(imgTemplate, new Vector3(3, 3, 3), Quaternion.identity);
+		CreateImage("Green");
+	}
 
+	public void CreateImage(string tag) {
+		Transform obj = (Transform) Instantiate(imgTemplate, new Vector3(3, 3, 3), Quaternion.identity);
+		var renderer = obj.GetComponent<Renderer>();
+		Color color;
+		print(tag);
+		switch(tag) {
+			case "White":
+				color = Color.white;
+				break;
 
+			case "Red":
+				color = Color.red;
+				break;
+
+			case "Green":
+				color = Color.green;
+				break;
+
+			case "Blue":
+				color = Color.blue;
+				break;
+
+			case "Black":
+				color = Color.black;
+				break;
+
+			default:
+				color = Color.red;
+				break;
+		}
+		renderer.material.color = color;
 	}
 
 	// Use this for initialization

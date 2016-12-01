@@ -102,6 +102,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb2982e30355c4ad784b4857ad430b5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mediaTemplate: {fileID: 4000014127577480, guid: a36e9a482e21d4c599415ef6abe90f27,
+  mediaThumbnailTemplate: {fileID: 4000013525090448, guid: b8d04ddd54d72433bbd6ad1bb8cf944f,
     type: 2}
-  url: TempAssets/chandra.jpg
