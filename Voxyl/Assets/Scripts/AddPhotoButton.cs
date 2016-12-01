@@ -42,10 +42,10 @@ public class AddPhotoButton : MonoBehaviour {
 		CreateImage("Green");
 	}
 
-	public void CreateImage(string tag) {
+	public void CreateImage(string imgPath) {
 		Transform obj = (Transform) Instantiate(imgTemplate, new Vector3(3, 3, 3), Quaternion.identity);
 		var renderer = obj.GetComponent<Renderer>();
-		Color color;
+		/*Color color;
 		print(tag);
 		switch(tag) {
 			case "White":
@@ -72,7 +72,19 @@ public class AddPhotoButton : MonoBehaviour {
 				color = Color.red;
 				break;
 		}
-		renderer.material.color = color;
+		renderer.material.color = color;*/
+		
+		var url = imgPath;
+		var bytes = System.IO.File.ReadAllBytes(url);
+		Texture2D tex = new Texture2D(1,1);
+		tex.LoadImage(bytes);
+		renderer.material.mainTexture = tex;
+		// Image img = obj.GetComponent<Image>();
+		// img.canvasRenderer.SetTexture(tex);*/
+		
+		// make image look at camera
+		obj.LookAt(m_Cam);
+		obj.Rotate(0, 180, 0);
 	}
 
 	// Use this for initialization

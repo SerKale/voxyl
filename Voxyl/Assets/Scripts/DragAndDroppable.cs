@@ -27,7 +27,7 @@ public class DragAndDroppable : MonoBehaviour {
 		m_Cam = Camera.main.transform;
 
 		distance = Vector3.Distance(transform.position, m_Cam.position);
-		relativeSize = 1f;
+		// relativeSize = ;
 	}
 
 	private void OnDisable ()
@@ -70,7 +70,7 @@ public class DragAndDroppable : MonoBehaviour {
 		if(selected) {
 			switch(swipeDirection) {
 				case VRInput.SwipeDirection.UP:
-					relativeSize += .3f;
+					transform.localScale += new Vector3(.3f, .3f, .3f);
 					break;
 
 				case VRInput.SwipeDirection.DOWN:
@@ -96,10 +96,13 @@ public class DragAndDroppable : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		// transform.Rotate(1,1,1);
 		if (selected) {
 			// follow gaze
 			transform.position = m_Cam.position + m_Cam.forward * distance;
-			transform.localScale = new Vector3(relativeSize, relativeSize, relativeSize);
+			// transform.localScale = new Vector3(relativeSize, relativeSize, relativeSize);
+			transform.LookAt(m_Cam);
+			transform.Rotate(0, 180, 0); // Quad quirk
 		}
 	}
 }

@@ -7,6 +7,7 @@ public class MediaThumbnail : MonoBehaviour {
 	public VRInteractiveItem m_InteractiveItem;
 
 	private string name;
+	private string url;
 
 	private void OnEnable() {
 		m_InteractiveItem.OnOver += HandleOver;
@@ -31,7 +32,7 @@ public class MediaThumbnail : MonoBehaviour {
 	}
 
 	private void HandleClick() {	
-		transform.parent.GetComponent<MediaPanel>().CreateImage(name);
+		transform.parent.GetComponent<MediaPanel>().CreateImage(url);
 	}
 
 	// Use this for initialization
@@ -49,8 +50,10 @@ public class MediaThumbnail : MonoBehaviour {
 		// parent = parent;
 	}
 
-	public void SetTexture(string url) {
-		var bytes = System.IO.File.ReadAllBytes(url);
+	public void SetTexture(string myUrl) {
+		url = myUrl;	
+		
+		var bytes = System.IO.File.ReadAllBytes(myUrl);
 
 		// should probably chop to size	
 		Texture2D tex = new Texture2D(1,1);

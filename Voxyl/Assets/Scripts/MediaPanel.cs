@@ -70,9 +70,10 @@ public class MediaPanel : MonoBehaviour {
 		return obj;
 	}*/
 
-	public void CreateImage(string tag) {
+	public void CreateImage(string url) {
 		// consider doing this with first class functions
-		print(tag);
-		m_ImageSpawner.GetComponent<AddPhotoButton>().CreateImage(tag);
+		// This function, I think, is what would get passed in
+		// print(tag);
+		m_ImageSpawner.GetComponent<AddPhotoButton>().CreateImage(url);
 	}
 }
