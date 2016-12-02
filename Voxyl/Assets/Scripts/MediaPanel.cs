@@ -51,7 +51,7 @@ public class MediaPanel : MonoBehaviour {
 			obj.transform.rotation = new Quaternion(0,0,0,0);
 			obj.transform.Rotate(0, 90, 0);
 			obj.transform.localScale = originalScale;
-			obj.GetComponent<MediaThumbnail>().SetTexture("Assets/Temp Assets/" + files[i, 1]);
+			obj.GetComponent<MediaThumbnail>().SetTexture("Assets/Images/" + files[i, 1]);
 			obj.GetComponent<MediaThumbnail>().Initialize(files[i, 0]);
 		}
 	}
@@ -75,5 +75,8 @@ public class MediaPanel : MonoBehaviour {
 		// This function, I think, is what would get passed in
 		// print(tag);
 		m_ImageSpawner.GetComponent<AddPhotoButton>().CreateImage(url);
+
+		// eventually move this out?
+		gameObject.SetActive(false);
 	}
 }

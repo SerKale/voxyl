@@ -22,6 +22,9 @@ GameObject:
   - 33: {fileID: 33000011841047674}
   - 64: {fileID: 64000013052664318}
   - 23: {fileID: 23000011083307118}
+  - 114: {fileID: 114000014206402710}
+  - 114: {fileID: 114000010517087434}
+  - 114: {fileID: 114000011070958718}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -90,3 +93,40 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114000010517087434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010326097642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114000011070958718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010326097642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8902ef04f323e444b98d2e4fd80a56ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DoubleClickTime: 0.3
+  m_SwipeWidth: 0.3
+--- !u!114 &114000014206402710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010326097642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f943b6d133b8348daa6f15c70b406ba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractiveItem: {fileID: 114000010517087434}
+  m_VrInput: {fileID: 114000011070958718}

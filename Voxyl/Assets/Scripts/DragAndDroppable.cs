@@ -16,6 +16,8 @@ public class DragAndDroppable : MonoBehaviour {
 
 	private bool m_GazeOver;
 
+	private Color tintColor = new Color(.5f,.5f,0,0);
+
 	private void OnEnable ()
 	{
 		m_InteractiveItem.OnOver += HandleOver;
@@ -57,10 +59,11 @@ public class DragAndDroppable : MonoBehaviour {
 		if(selected) {
 			var renderer = GetComponent<Renderer>();
 			print(renderer.material.color);
-			// renderer.material.color -= new Color(0,0,0,.5f);
+			renderer.material.color -= tintColor;
 		} else {	
 			var renderer = GetComponent<Renderer>();
 			// renderer.material.color += .5f;
+			renderer.material.color += tintColor;
 		}
 		// print(transform.position.x);
 		// print(
