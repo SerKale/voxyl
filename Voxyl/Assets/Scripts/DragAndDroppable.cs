@@ -62,22 +62,19 @@ public class DragAndDroppable : MonoBehaviour {
 			renderer.material.color -= tintColor;
 		} else {	
 			var renderer = GetComponent<Renderer>();
-			// renderer.material.color += .5f;
 			renderer.material.color += tintColor;
 		}
-		// print(transform.position.x);
-		// print(
 	}
 
 	private void HandleSwipe(VRInput.SwipeDirection swipeDirection) {
 		if(selected) {
 			switch(swipeDirection) {
 				case VRInput.SwipeDirection.UP:
-					transform.localScale += new Vector3(.3f, .3f, .3f);
+					transform.localScale = Vector3.Scale(transform.localScale, new Vector3(1.1f, 1.1f, 1.1f));
 					break;
 
 				case VRInput.SwipeDirection.DOWN:
-					relativeSize -= .3f;
+					transform.localScale = Vector3.Scale(transform.localScale, new Vector3(.9f, .9f, .9f));
 					break;
 				
 				case VRInput.SwipeDirection.LEFT:
@@ -88,7 +85,6 @@ public class DragAndDroppable : MonoBehaviour {
 					distance -= 1f;
 					break;
 			}
-			// print("Size is now at " + relativeSize);
 		}
 	}
 	

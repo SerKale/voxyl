@@ -10,6 +10,8 @@ public class AddPhotoButton : MonoBehaviour {
 
 	public Transform imgTemplate;
 
+	private float SCALE = 100F;
+
 	private void OnEnable ()
 	{
 		m_InteractiveItem.OnClick += HandleClick;
@@ -39,50 +41,23 @@ public class AddPhotoButton : MonoBehaviour {
 		// Instantiate(img);
 		
 
-		CreateImage("Green");
+		// CreateImage("Green");
 	}
 
 	public void CreateImage(string imgPath) {
-		Transform obj = (Transform) Instantiate(imgTemplate, new Vector3(3, 3, 3), Quaternion.identity);
-		var renderer = obj.GetComponent<Renderer>();
-		/*Color color;
-		print(tag);
-		switch(tag) {
-			case "White":
-				color = Color.white;
-				break;
+		Transform obj = (Transform) Instantiate(imgTemplate, new Vector3(10, 10, 10), Quaternion.identity);
 
-			case "Red":
-				color = Color.red;
-				break;
-
-			case "Green":
-				color = Color.green;
-				break;
-
-			case "Blue":
-				color = Color.blue;
-				break;
-
-			case "Black":
-				color = Color.black;
-				break;
-
-			default:
-				color = Color.red;
-				break;
-		}
-		renderer.material.color = color;*/
-		
-		var url = imgPath;
-		var bytes = System.IO.File.ReadAllBytes(url);
-		Texture2D tex = new Texture2D(1,1);
-		tex.LoadImage(bytes);
-		renderer.material.mainTexture = tex;
+		var img = Resources.Load(imgPath, typeof(Texture2D)) as Texture2D;
+		var renderer = obj.GetComponent<Renderer>();	
+		renderer.material.mainTexture = img;
 		// Image img = obj.GetComponent<Image>();
 		// img.canvasRenderer.SetTexture(tex);*/
 		
+		// resize image
+		obj.localScale = new Vector3(img.width / SCALE, img.height / SCALE, 1);
+		
 		// make image look at camera
+		// obj.transform.localScale = new Vector3(1f, 1.2f, 1f);
 		obj.LookAt(m_Cam);
 		obj.Rotate(0, 180, 0);
 	}

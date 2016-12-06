@@ -1,11 +1,47 @@
 ﻿using UnityEngine;
 using System.Collections;
+using VRStandardAssets.Utils;
+using System.Collections.Generic;
 
 public class MediaPanel : MonoBehaviour {
 
 	public Transform mediaThumbnailTemplate;
 	public Transform m_ImageSpawner;
+	
+	public VRInput m_VrInput;
 
+	private int index = 0;
+
+	private string[,] files = new string[,] {
+			{"White", "whitemana"},
+			{"Blue", "bluemana"},
+			{"Black", "blackmana"},
+			{"Red", "redmana"},
+			{"Green", "greenmana"},
+			{"White", "whitemana"},
+			{"Blue", "bluemana"},
+			{"Black", "blackmana"},
+			{"Red", "redmana"},
+			{"Green", "greenmana"},
+			{"White", "whitemana"},
+			{"Blue", "bluemana"},
+			{"Black", "blackmana"},
+			{"Red", "redmana"},
+			{"Green", "greenmana"},
+			{"Chandra", "chandra"}
+		};
+
+	private const int IMAGES_PER_PAGE = 9;
+	private int maxIndex;
+	
+	private void OnEnable() {
+		m_VrInput.OnSwipe += HandleSwipe;
+	}
+
+	private void OnDisable() {
+		m_VrInput.OnSwipe -= HandleSwipe;
+	}
+	
 	// Use this for initialization
 	void Start () {
 		
@@ -35,15 +71,10 @@ public class MediaPanel : MonoBehaviour {
 
 		//Transform obj = (Transform) Instantiate(mediaThumbnailTemplate, new Vector3(0,0,0), Quaternion.identity);
 
-		string[,] files = new string[,] {
-			{"White", "whitemana.png"},
-			{"Blue", "bluemana.png"},
-			{"Black", "blackmana.png"},
-			{"Red", "redmana.png"},
-			{"Green", "greenmana.png"}
-		};
 		
-		for(int i = 0; i < files.GetLength(0); i++) {
+		
+		/*int numfiles = files.GetLength(0);
+		for(int i = index * 9; i < (numfiles > 9 ? 9 : numfiles); i++) {
 			Transform obj = (Transform) Instantiate(mediaThumbnailTemplate);
 			Vector3 originalScale = obj.transform.localScale;	
 			obj.transform.parent = transform;
@@ -53,7 +84,12 @@ public class MediaPanel : MonoBehaviour {
 			obj.transform.localScale = originalScale;
 			obj.GetComponent<MediaThumbnail>().SetTexture("Assets/Images/" + files[i, 1]);
 			obj.GetComponent<MediaThumbnail>().Initialize(files[i, 0]);
-		}
+		}*/
+
+		maxIndex = files.GetLength(0) / IMAGES_PER_PAGE;
+
+		RenderImagesForIndex(index);
+
 	}
 	
 	// Update is called once per frame
@@ -78,5 +114,43 @@ public class MediaPanel : MonoBehaviour {
 
 		// eventually move this out?
 		gameObject.SetActive(false);
+	}
+
+	private void HandleSwipe(VRInput.SwipeDirection dir) {
+		if(gameObject.activeSelf) {
+			switch(dir) {
+				case VRInput.SwipeDirection.UP:	
+					if(index > 0) { RenderImagesForIndex(--index); }
+					break;
+				
+				case VRInput.SwipeDirection.DOWN:	
+					if(index < maxIndex) { RenderImagesForIndex(++index); }
+					break;
+			}
+		}
+	}
+
+	private void RenderImagesForIndex(int index) {		
+		int numfiles = files.GetLength(0);
+		
+		// clear images
+		var children = new List<GameObject>();
+		foreach (Transform child in transform) children.Add(child.gameObject);
+		children.ForEach(child => Destroy(child));
+
+		// render images
+		int start = index * IMAGES_PER_PAGE;
+		int num = start + IMAGES_PER_PAGE > numfiles ? numfiles - start : IMAGES_PER_PAGE;
+		for(int i = 0; i < num; i++) {
+			Transform obj = (Transform) Instantiate(mediaThumbnailTemplate);
+			Vector3 originalScale = obj.transform.localScale;	
+			obj.transform.parent = transform;
+			obj.transform.localPosition = new Vector3(-3f + 3f * (i/3), .2f, -3.5f + 3f * (i%3));
+			obj.transform.rotation = new Quaternion(0,0,0,0);
+			obj.transform.Rotate(0, 90, 0);
+			obj.transform.localScale = originalScale;
+			obj.GetComponent<MediaThumbnail>().SetTexture(files[start + i, 1]);
+			obj.GetComponent<MediaThumbnail>().Initialize(files[start + i, 0]);
+		}
 	}
 }

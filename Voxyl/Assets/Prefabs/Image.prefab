@@ -21,10 +21,10 @@ GameObject:
   - 4: {fileID: 4000012829046198}
   - 33: {fileID: 33000011841047674}
   - 64: {fileID: 64000013052664318}
-  - 23: {fileID: 23000011083307118}
   - 114: {fileID: 114000014206402710}
   - 114: {fileID: 114000010517087434}
   - 114: {fileID: 114000011070958718}
+  - 23: {fileID: 23000013835235100}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -45,7 +45,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!23 &23000011083307118
+--- !u!23 &23000013835235100
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -58,13 +58,13 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
+  m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedWireframeHidden: 0
