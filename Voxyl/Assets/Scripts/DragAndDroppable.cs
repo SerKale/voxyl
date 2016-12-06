@@ -16,6 +16,8 @@ public class DragAndDroppable : MonoBehaviour {
 
 	private bool m_GazeOver;
 
+	private Color tintColor = new Color(.5f,.5f,0,0);
+
 	private void OnEnable ()
 	{
 		m_InteractiveItem.OnOver += HandleOver;
@@ -27,7 +29,7 @@ public class DragAndDroppable : MonoBehaviour {
 		m_Cam = Camera.main.transform;
 
 		distance = Vector3.Distance(transform.position, m_Cam.position);
-		relativeSize = 1f;
+		// relativeSize = ;
 	}
 
 	private void OnDisable ()
@@ -57,24 +59,22 @@ public class DragAndDroppable : MonoBehaviour {
 		if(selected) {
 			var renderer = GetComponent<Renderer>();
 			print(renderer.material.color);
-			// renderer.material.color -= new Color(0,0,0,.5f);
+			renderer.material.color -= tintColor;
 		} else {	
 			var renderer = GetComponent<Renderer>();
-			// renderer.material.color += .5f;
+			renderer.material.color += tintColor;
 		}
-		// print(transform.position.x);
-		// print(
 	}
 
 	private void HandleSwipe(VRInput.SwipeDirection swipeDirection) {
 		if(selected) {
 			switch(swipeDirection) {
 				case VRInput.SwipeDirection.UP:
-					relativeSize += .3f;
+					transform.localScale = Vector3.Scale(transform.localScale, new Vector3(1.1f, 1.1f, 1.1f));
 					break;
 
 				case VRInput.SwipeDirection.DOWN:
-					relativeSize -= .3f;
+					transform.localScale = Vector3.Scale(transform.localScale, new Vector3(.9f, .9f, .9f));
 					break;
 				
 				case VRInput.SwipeDirection.LEFT:
@@ -85,7 +85,6 @@ public class DragAndDroppable : MonoBehaviour {
 					distance -= 1f;
 					break;
 			}
-			// print("Size is now at " + relativeSize);
 		}
 	}
 	
@@ -96,10 +95,13 @@ public class DragAndDroppable : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		// transform.Rotate(1,1,1);
 		if (selected) {
 			// follow gaze
 			transform.position = m_Cam.position + m_Cam.forward * distance;
-			transform.localScale = new Vector3(relativeSize, relativeSize, relativeSize);
+			// transform.localScale = new Vector3(relativeSize, relativeSize, relativeSize);
+			transform.LookAt(m_Cam);
+			transform.Rotate(0, 180, 0); // Quad quirk
 		}
 	}
 }
