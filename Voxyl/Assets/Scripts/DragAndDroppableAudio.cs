@@ -2,7 +2,7 @@
 using System.Collections;
 using VRStandardAssets.Utils; // add this to deal with VR inputs
 
-public class DragAndDroppableLight : MonoBehaviour
+public class DragAndDroppableAudio : MonoBehaviour
 {
 
     private bool selected;
@@ -78,11 +78,11 @@ public class DragAndDroppableLight : MonoBehaviour
             switch (swipeDirection)
             {
                 case VRInput.SwipeDirection.UP:
-                    GetComponent<Light>().intensity += .5f;
+                    GetComponent<AudioSource>().volume += .1f;
                     break;
 
                 case VRInput.SwipeDirection.DOWN:
-                    GetComponent<Light>().intensity -= .5f;
+                    GetComponent<AudioSource>().volume -= .1f;
                     break;
 
                 case VRInput.SwipeDirection.LEFT:
