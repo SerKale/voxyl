@@ -28,7 +28,11 @@ public class MediaPanel : MonoBehaviour {
 			{"Black", "blackmana"},
 			{"Red", "redmana"},
 			{"Green", "greenmana"},
-			{"Chandra", "chandra"}
+			{"Chandra", "chandra"},
+            {"Airplane", "airplane"},
+            {"Blue Clouds", "blue-clouds-day-fluffy-53594" },
+            {"Alleyway", "alleyway" },
+            {"Bridge", "bridge-path-straight-wooden" }
 		};
 
 	private const int IMAGES_PER_PAGE = 9;
