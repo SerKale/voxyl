@@ -101,7 +101,6 @@ public class MediaPanel : MonoBehaviour {
 			obj.transform.Rotate(0, 90, 0);
 			obj.transform.localScale = originalScale;
 			obj.GetComponent<MediaThumbnail>().SetTexture(files[start + i, 1]);
-			obj.GetComponent<MediaThumbnail>().Initialize(files[start + i, 0]);
 		}
 	}
 }
