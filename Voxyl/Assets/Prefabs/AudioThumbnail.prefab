@@ -40,6 +40,8 @@ GameObject:
   - 33: {fileID: 33000010049527592}
   - 64: {fileID: 64000012836200334}
   - 23: {fileID: 23000011165324206}
+  - 114: {fileID: 114000012819126722}
+  - 114: {fileID: 114000010149078382}
   m_Layer: 0
   m_Name: AudioThumbnail
   m_TagString: Untagged
@@ -172,6 +174,29 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!114 &114000010149078382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013210244772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114000012819126722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013210244772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839d29dc72a464c2495d7cb38ffb081c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractiveItem: {fileID: 114000010149078382}
 --- !u!114 &114000013140275656
 MonoBehaviour:
   m_ObjectHideFlags: 1
