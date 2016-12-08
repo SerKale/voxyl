@@ -4,13 +4,8 @@ using VRStandardAssets.Utils;
 
 public class AddAudioButton : MonoBehaviour
 {
-
-    [SerializeField]
-    private VRInteractiveItem m_InteractiveItem;
-    public Transform m_Cam;
-
-
-    public Transform imgTemplate;
+    public VRInteractiveItem m_InteractiveItem;
+	public GameObject m_AudioPanel;
 
     private void OnEnable()
     {
@@ -24,13 +19,13 @@ public class AddAudioButton : MonoBehaviour
 
     private void HandleClick()
     {
-        Transform obj = (Transform)Instantiate(imgTemplate, new Vector3(3, 3, 3), Quaternion.identity);
+		m_AudioPanel.SetActive(true);
     }
 
     // Use this for initialization
     void Start()
-    {
-
+    {	
+		m_AudioPanel.SetActive(false);
     }
 
     // Update is called once per frame

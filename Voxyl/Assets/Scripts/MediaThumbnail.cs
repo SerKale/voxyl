@@ -6,7 +6,7 @@ public class MediaThumbnail : MonoBehaviour {
 
 	public VRInteractiveItem m_InteractiveItem;
 
-	private string name;
+	// private string name;
 	private string url;
 
 	private void OnEnable() {
@@ -44,7 +44,7 @@ public class MediaThumbnail : MonoBehaviour {
 	}
 
 	public void Initialize(string myName) {
-		name = myName;
+		// name = myName;
 	}
 
 	public void SetTexture(string myUrl) {

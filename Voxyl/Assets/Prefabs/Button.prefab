@@ -145,7 +145,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -167,7 +167,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!114 &114000010535723656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -204,15 +204,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Duration: 2
-  m_Audio: {fileID: 82000010197498954}
   m_OnOverClip: {fileID: 8300000, guid: 2bd66143af0efeb4e884e4273d2ed956, type: 3}
   m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}
   m_Slider: {fileID: 0}
-  m_InteractiveItem: {fileID: 114000012064538930}
-  m_VRInput: {fileID: 0}
-  m_BarCanvas: {fileID: 0}
   m_Renderer: {fileID: 0}
-  m_SelectionRadial: {fileID: 0}
   m_UIFader: {fileID: 0}
   m_Collider: {fileID: 0}
   m_DisableOnBarFill: 0
