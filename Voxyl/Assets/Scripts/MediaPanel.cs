@@ -12,7 +12,7 @@ public class MediaPanel : MonoBehaviour {
 
 	private int index = 0;
 
-	private string[,] files = new string[,] {
+	/* private string[,] files = new string[,] {
 			{"White", "whitemana"},
 			{"Blue", "bluemana"},
 			{"Black", "blackmana"},
@@ -33,7 +33,76 @@ public class MediaPanel : MonoBehaviour {
             {"Blue Clouds", "blue-clouds-day-fluffy-53594" },
             {"Alleyway", "alleyway" },
             {"Bridge", "bridge-path-straight-wooden" }
-		};
+		};*/
+
+	private string[,] files = new string[,] {
+			{"2015-04-umbrella-guy-rain", "2015-04-umbrella-guy-rain"},
+			{"355699-valley", "355699-valley"},
+			{"Creepycemetery", "Creepycemetery"},
+			{"Sailboat-sunset", "Sailboat-sunset"},
+			{"SkyScraper", "SkyScraper"},
+			{"Snow-Covered Sierra Nevada Mountains, California", "Snow-Covered Sierra Nevada Mountains, California"},
+			{"Snow", "Snow"},
+			{"Super-House-Interior", "Super-House-Interior"},
+			{"airplane", "airplane"},
+			{"alleyway", "alleyway"},
+			{"beach-01", "beach-01"},
+			{"blackmana", "blackmana"},
+			{"blue-clouds-day-fluffy-53594", "blue-clouds-day-fluffy-53594"},
+			{"bluemana", "bluemana"},
+			{"bow-and-arrow", "bow-and-arrow"},
+			{"bridge-path-straight-wooden", "bridge-path-straight-wooden"},
+			{"bunnies", "bunnies"},
+			{"car", "car"},
+			{"cat", "cat"},
+			{"chandra", "chandra"},
+			{"choosing-roses-garden-08312015", "choosing-roses-garden-08312015"},
+			{"cliff", "cliff"},
+			{"computer", "computer"},
+			{"dog", "dog"},
+			{"dusk", "dusk"},
+			{"earth-from-space", "earth-from-space"},
+			{"fire", "fire"},
+			{"flower-197343_1920", "flower-197343_1920"},
+			{"flute-and-sheet-music", "flute-and-sheet-music"},
+			{"girl-balloons-silhouette", "girl-balloons-silhouette"},
+			{"greenmana", "greenmana"},
+			{"guitar-in-flowers", "guitar-in-flowers"},
+			{"guitar", "guitar"},
+			{"half-dome-shot_h", "half-dome-shot_h"},
+			{"horseback-riding", "horseback-riding"},
+			{"iPhone-couple-silhouette-1024x1024", "iPhone-couple-silhouette-1024x1024"},
+			{"kitten-little", "kitten-little"},
+			{"kwansan-cherry-tree-bench", "kwansan-cherry-tree-bench"},
+			{"lightningbolts", "lightningbolts"},
+			{"lion", "lion"},
+			{"llama", "llama"},
+			{"moon", "moon"},
+			{"nature-forest-industry-rails", "nature-forest-industry-rails"},
+			{"o-STAINED-GLASS-WINDOW-900", "o-STAINED-GLASS-WINDOW-900"},
+			{"poison-garden", "poison-garden"},
+			{"rain-04", "rain-04"},
+			{"redmana", "redmana"},
+			{"river", "river"},
+			{"road-photography-2", "road-photography-2"},
+			{"sea-gull-bird-sky-nature", "sea-gull-bird-sky-nature"},
+			{"ship", "ship"},
+			{"silhouette-woman-sunset-profile", "silhouette-woman-sunset-profile"},
+			{"silhouette", "silhouette"},
+			{"skogafoss_waterfall_iceland", "skogafoss_waterfall_iceland"},
+			{"space-04", "space-04"},
+			{"stars", "stars"},
+			{"subway", "subway"},
+			{"swingset", "swingset"},
+			{"sword", "sword"},
+			{"temple", "temple"},
+			{"thicket", "thicket"},
+			{"tiger", "tiger"},
+			{"tree-01", "tree-01"},
+			{"underwater", "underwater"},
+			{"volcano-05", "volcano-05"},
+			{"whitemana", "whitemana"}
+	};
 
 	private const int IMAGES_PER_PAGE = 9;
 	private int maxIndex;
