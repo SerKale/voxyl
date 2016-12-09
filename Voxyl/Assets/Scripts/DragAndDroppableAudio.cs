@@ -13,7 +13,7 @@ public class DragAndDroppableAudio : MonoBehaviour
 
     private void OnEnable()
     {
-        m_InteractiveItem.OnClick += HandleClick;
+        m_InteractiveItem.OnDoubleClick += HandleClick;
         m_VrInput.OnSwipe += HandleSwipe;
         m_Cam = Camera.main.transform;
         distance = Vector3.Distance(transform.position, m_Cam.position);
@@ -21,7 +21,7 @@ public class DragAndDroppableAudio : MonoBehaviour
 
     private void OnDisable()
     {
-        m_InteractiveItem.OnClick -= HandleClick;
+        m_InteractiveItem.OnDoubleClick -= HandleClick;
         m_VrInput.OnSwipe -= HandleSwipe;
     } 
 

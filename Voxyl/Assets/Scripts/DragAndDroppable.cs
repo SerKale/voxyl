@@ -13,9 +13,13 @@ public class DragAndDroppable : MonoBehaviour {
 	private float relativeSize;
 	private Color tintColor = new Color(.5f,.5f,0,0);
 
+    private float clickDelta = 0.6f;
+    private bool click = false;
+    private float clickTime;
+
 	private void OnEnable ()
 	{
-		m_InteractiveItem.OnClick += HandleClick;
+		m_InteractiveItem.OnDoubleClick += HandleClick;
 		m_VrInput.OnSwipe += HandleSwipe;
 		m_Cam = Camera.main.transform;
 		distance = Vector3.Distance(transform.position, m_Cam.position);
@@ -23,19 +27,23 @@ public class DragAndDroppable : MonoBehaviour {
 
 	private void OnDisable ()
 	{
-		m_InteractiveItem.OnClick -= HandleClick;	
+		m_InteractiveItem.OnDoubleClick -= HandleClick;	
 		m_VrInput.OnSwipe -= HandleSwipe;
 	}	
 
 	private void HandleClick() {
-		selected = !selected;
-		if(selected) {
-			var renderer = GetComponent<Renderer>();
-			renderer.material.color -= tintColor;
-		} else {	
-			var renderer = GetComponent<Renderer>();
-			renderer.material.color += tintColor;
-		}
+        click = false;
+        selected = !selected;
+        if (selected)
+        {
+            var renderer = GetComponent<Renderer>();
+            renderer.material.color -= tintColor;
+        }
+        else
+        {
+            var renderer = GetComponent<Renderer>();
+            renderer.material.color += tintColor;
+        }
 	}
 
 	private void HandleSwipe(VRInput.SwipeDirection swipeDirection) {
@@ -67,6 +75,7 @@ public class DragAndDroppable : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 		if (selected) {
 			// follow gaze
 			transform.position = m_Cam.position + (m_Cam.forward * distance);
