@@ -15,10 +15,11 @@ public class AudioPanel : MonoBehaviour {
 	private string[,] files = new string[,] {
 			{"Careless Whisper - George Michael", "carelesswhisper"},
 			{"Closer - The Chainsmokers ft. Halsey", "closer"},
-			{"Careless Whisper - George Michael", "carelesswhisper"},
-			{"Closer - The Chainsmokers ft. Halsey", "closer"},
-			{"Careless Whisper - George Michael", "carelesswhisper"},
-			{"Closer - The Chainsmokers ft. Halsey", "closer"}
+			{"Creepy Music", "creepyMusic"},
+			{"Epic Music!", "epicMusic"},
+			{"Happy Ukelele", "HappyUkelele"},
+			{"People Talking", "peopleTalking"},
+			{"Wind", "windy"}
 		};
 
 	private const int CLIPS_PER_PAGE = 9;

@@ -86,10 +86,13 @@ public class DragAndDroppable : MonoBehaviour {
 			double yxtangent = (transform.position.y-2) / transform.position.x;
 
 			// Essentially, this says
+			/* print("x: " + transform.position.x);
+			print("y: " + transform.position.y);
+			print("z: " + transform.position.z);
 			print("zxtangent: " + zxtangent);
-			print("yxtangent: " + yxtangent);
-			if (transform.position.x < 0 && transform.position.y < 0 && transform.position.z > 0 &&
-				yxtangent > 0.6 && yxtangent < 1 && zxtangent < -.2 && zxtangent > -.7) {
+			print("yxtangent: " + yxtangent);*/
+			if (transform.position.x > 0 && transform.position.z < 0 &&
+				yxtangent > -2.7f && yxtangent < -1.3f && zxtangent < 0 && zxtangent > -.9) {
 				Destroy (gameObject);
 			} 
 			

@@ -80,10 +80,11 @@ public class DragAndDroppableAudio : MonoBehaviour
 			// yxtangent is for the viewer's up<->down view 
 			// The ranges below are associated with the angle of view where the viewer is looking 
 			// at the trash can view in the current menu. If the menu is changed, these must change too!
-			print("zxtangent: " + zxtangent);
-			print("yxtangent: " + yxtangent);
-			if (transform.position.x < 0 && transform.position.y < 0 && transform.position.z > 0 &&
-				yxtangent > 0.6 && yxtangent < 1 && zxtangent < -.2 && zxtangent > -.7) {
+			/*print("zxtangent: " + zxtangent);
+			print("yxtangent: " + yxtangent);*/
+
+			if (transform.position.x > 0 && transform.position.z < 0 &&
+				yxtangent > -2.7f && yxtangent < -1.3f && zxtangent < 0 && zxtangent > -.9) {
 				Destroy (gameObject);
 			} 
         }
