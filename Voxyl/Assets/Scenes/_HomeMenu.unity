@@ -774,6 +774,8 @@ Prefab:
     - {fileID: 8213178, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
     - {fileID: 8212192, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
     - {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
+    - {fileID: 11412586, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
+    - {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &194953808 stripped
@@ -790,26 +792,6 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
   m_PrefabInternal: {fileID: 194953807}
---- !u!114 &194953811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 194953808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3138a0d76dfdea846a0a250e0c262f75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Duration: 2
-  m_OnOverClip: {fileID: 8300000, guid: 2bd66143af0efeb4e884e4273d2ed956, type: 3}
-  m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}
-  m_Slider: {fileID: 0}
-  m_Renderer: {fileID: 0}
-  m_UIFader: {fileID: 0}
-  m_Collider: {fileID: 0}
-  m_DisableOnBarFill: 1
-  m_DisappearOnBarFill: 0
 --- !u!82 &194953812
 AudioSource:
   m_ObjectHideFlags: 0

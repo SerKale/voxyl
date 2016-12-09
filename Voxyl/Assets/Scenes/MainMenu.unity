@@ -132,7 +132,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
 --- !u!1 &220199136
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,7 +211,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 92.02899, y: 265, z: -27.453003}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
 --- !u!1 &222147918
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +317,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!1 &352203730
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,7 +422,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 92.02899, y: 130, z: -27.453003}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
 --- !u!4 &540488522 stripped
 Transform:
   m_PrefabParentObject: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 2}
@@ -570,7 +570,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 92.02899, y: 43.160995, z: 66.911995}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!114 &815544911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -822,7 +822,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 92.02899, y: 43.160995, z: -27.453003}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
 --- !u!1 &1164324599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,7 +1006,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 92.02899, y: 222, z: -27.453003}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
 --- !u!1 &1500361972 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000012265940194, guid: 94535646a257e4a2da01af1a09de8007,
@@ -1091,7 +1091,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!1 &1599985300 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000012265940194, guid: 94535646a257e4a2da01af1a09de8007,
@@ -1229,7 +1229,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 92.027985, y: 43.160995, z: 19.796997}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
 --- !u!1001 &1675393804
 Prefab:
   m_ObjectHideFlags: 0
@@ -1409,7 +1409,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 92.02899, y: 180, z: -27.453003}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
 --- !u!1001 &1833072832
 Prefab:
   m_ObjectHideFlags: 0
@@ -1456,451 +1456,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1833072833 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11458036, guid: ccf8c8cc05aad7b40a8deb4f73296da4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1833072832}
-  m_Script: {fileID: 11500000, guid: 03fb8390bc96a7f4cafebf5efc362f62, type: 3}
---- !u!114 &1833072834 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11456534, guid: ccf8c8cc05aad7b40a8deb4f73296da4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1833072832}
-  m_Script: {fileID: 11500000, guid: 31957ab02a8654b448736febf48c16e9, type: 3}
---- !u!1001 &2054422140
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.size
-      value: 51
-      objectReference: {fileID: 0}
-    - target: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_CameraFade
-      value: 
-      objectReference: {fileID: 1833072834}
-    - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_UISelectionBar
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[0]
-      value: 
-      objectReference: {fileID: 2800000, guid: 7b9c585882f820b4082047e90a137562, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[1]
-      value: 
-      objectReference: {fileID: 2800000, guid: ed0e9cb8587ee9447b89630a9fe84047, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[2]
-      value: 
-      objectReference: {fileID: 2800000, guid: dc4d1f62feb06a445bcf1f305862f6bb, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[3]
-      value: 
-      objectReference: {fileID: 2800000, guid: 234249532ee735e4297de2642ede4890, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[4]
-      value: 
-      objectReference: {fileID: 2800000, guid: 4c064b681a454074592607f982a5c4c7, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[5]
-      value: 
-      objectReference: {fileID: 2800000, guid: 8b9a661aedcfb934bbb36dec627706cc, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[6]
-      value: 
-      objectReference: {fileID: 2800000, guid: 6070f86fc80d78c4cade3657996be90a, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[7]
-      value: 
-      objectReference: {fileID: 2800000, guid: 713a3603f561b5f44b632bb6d74a6583, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[8]
-      value: 
-      objectReference: {fileID: 2800000, guid: c31254a8e2b8d3b4eb9b74119e2c7db5, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[9]
-      value: 
-      objectReference: {fileID: 2800000, guid: d968ded408497024f9953962544a322f, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[10]
-      value: 
-      objectReference: {fileID: 2800000, guid: a0dd8c25ad703394b804c0f5ad58c128, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[11]
-      value: 
-      objectReference: {fileID: 2800000, guid: c0c6ae8c7f87c2048ae47a964e7e66cb, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[12]
-      value: 
-      objectReference: {fileID: 2800000, guid: d5ac961ae64a25c4ab2333ecf738a93d, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[13]
-      value: 
-      objectReference: {fileID: 2800000, guid: 18af85f4f68f91844821a6b0aad3935f, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[14]
-      value: 
-      objectReference: {fileID: 2800000, guid: 62c673aa9c56ba14f93dfbd26e754b62, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[15]
-      value: 
-      objectReference: {fileID: 2800000, guid: 11dac28109f469348ba53dec55bef4bd, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[16]
-      value: 
-      objectReference: {fileID: 2800000, guid: c6988e83b2263f44bb17332517a8a74f, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[17]
-      value: 
-      objectReference: {fileID: 2800000, guid: 9be6ba2f56d868849a726a44bec5cd5d, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[18]
-      value: 
-      objectReference: {fileID: 2800000, guid: f1597df362238a54fb90ab9d861d4cf3, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[19]
-      value: 
-      objectReference: {fileID: 2800000, guid: 9c8e6211105df49448806b01927bb5de, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[20]
-      value: 
-      objectReference: {fileID: 2800000, guid: ef756fa173ab40f4abaaf56cbc76b0ad, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[21]
-      value: 
-      objectReference: {fileID: 2800000, guid: fdf93da29b7d24b44ae583d671c677cb, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[22]
-      value: 
-      objectReference: {fileID: 2800000, guid: f6d7d8e342d7b74438bc5b6e941d6441, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[23]
-      value: 
-      objectReference: {fileID: 2800000, guid: b68311842a1102c4abd126742153a902, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[24]
-      value: 
-      objectReference: {fileID: 2800000, guid: dbd1a09432b3bff4494eb08b6e95519a, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[25]
-      value: 
-      objectReference: {fileID: 2800000, guid: e83fe872b905f954f8d8d7a2cda82699, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[26]
-      value: 
-      objectReference: {fileID: 2800000, guid: 12ea665558011694b994ea9778a4e6ea, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[27]
-      value: 
-      objectReference: {fileID: 2800000, guid: 295c5127da2807c4ba315077eb26b331, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[28]
-      value: 
-      objectReference: {fileID: 2800000, guid: 2f2fd37be1ea70e46a1fe4932183ee63, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[29]
-      value: 
-      objectReference: {fileID: 2800000, guid: 5a238dc1f9ab41743a5b4d16952dc9c5, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[30]
-      value: 
-      objectReference: {fileID: 2800000, guid: 27fffb4918129ff4b9e255aca56357a4, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[31]
-      value: 
-      objectReference: {fileID: 2800000, guid: dc5e50c86cef9094c8cfaaae7d082ddb, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[32]
-      value: 
-      objectReference: {fileID: 2800000, guid: e0e0b33ef445c124db32974e60024592, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[33]
-      value: 
-      objectReference: {fileID: 2800000, guid: 47e27a9da6ce36f43b0d4a3e27d0ddf9, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[34]
-      value: 
-      objectReference: {fileID: 2800000, guid: b7149b91f5ebb2d44b0451f3f2428a8c, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[35]
-      value: 
-      objectReference: {fileID: 2800000, guid: c57753bf981950c4ab420312b662bc20, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[36]
-      value: 
-      objectReference: {fileID: 2800000, guid: 730d5886b8296c84eb7621be492dabc9, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[37]
-      value: 
-      objectReference: {fileID: 2800000, guid: b43446a8852742d42b5944ffc65073ff, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[38]
-      value: 
-      objectReference: {fileID: 2800000, guid: 020ac0b1684eaaf459c4531795c70d47, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[39]
-      value: 
-      objectReference: {fileID: 2800000, guid: 3a6e604865c001345b23ce24816bedd7, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[40]
-      value: 
-      objectReference: {fileID: 2800000, guid: aafb8427e69f1de4682c7b51fe175b36, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[41]
-      value: 
-      objectReference: {fileID: 2800000, guid: 24ab58fa19bcb6d4cab9c646d46c75b0, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[42]
-      value: 
-      objectReference: {fileID: 2800000, guid: fd081d8373e9cef4b802322e2cc597c2, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[43]
-      value: 
-      objectReference: {fileID: 2800000, guid: 09faf5dab9f2ff740bbc38b3daea7d0e, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[44]
-      value: 
-      objectReference: {fileID: 2800000, guid: c86d5d29600705d4c8200d3fae0e998c, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[45]
-      value: 
-      objectReference: {fileID: 2800000, guid: 4e5d81f8a3b8d744ba100e1323456da4, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[46]
-      value: 
-      objectReference: {fileID: 2800000, guid: 57bb16a0f415bd44bb90fbc15993099d, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[47]
-      value: 
-      objectReference: {fileID: 2800000, guid: 40796b567ea504845a07c20c47421b97, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[48]
-      value: 
-      objectReference: {fileID: 2800000, guid: 263e077e3fe3ba846a57c14ebeeec596, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[49]
-      value: 
-      objectReference: {fileID: 2800000, guid: b26f79003dea0844d87a072d3b3002cf, type: 3}
-    - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_AnimTextures.Array.data[50]
-      value: 
-      objectReference: {fileID: 2800000, guid: 97dcdb820a187e4459b061e5aaa577fb, type: 3}
-    - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_InteractiveItem
-      value: 
-      objectReference: {fileID: 2054422142}
-    - target: {fileID: 8213178, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: panLevelCustomCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8213178, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8212192, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: panLevelCustomCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8212192, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8212192, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_SelectionRadial
-      value: 
-      objectReference: {fileID: 1833072833}
-    - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_Audio
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412586, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_Transform
-      value: 
-      objectReference: {fileID: 2054422143}
-    - target: {fileID: 8212192, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: spreadCustomCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 177090, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_Name
-      value: nextSceneButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 2301440, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2ec5be066bddb4b1580603ec16c1f2b9, type: 2}
-    - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_SceneToLoad
-      value: LlamaWorld
-      objectReference: {fileID: 0}
-    - target: {fileID: 177090, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8213178, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-    - {fileID: 8212192, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-    - {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &2054422141 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 177090, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-  m_PrefabInternal: {fileID: 2054422140}
---- !u!114 &2054422142 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11459736, guid: 91b3bfdb6dd0b8847af2aed0f548e04a,
-    type: 2}
-  m_PrefabInternal: {fileID: 2054422140}
-  m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
---- !u!4 &2054422143 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 466652, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
-  m_PrefabInternal: {fileID: 2054422140}
---- !u!114 &2054422144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2054422141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3138a0d76dfdea846a0a250e0c262f75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Duration: 2
-  m_OnOverClip: {fileID: 8300000, guid: 2bd66143af0efeb4e884e4273d2ed956, type: 3}
-  m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}
-  m_Slider: {fileID: 0}
-  m_Renderer: {fileID: 0}
-  m_UIFader: {fileID: 0}
-  m_Collider: {fileID: 0}
-  m_DisableOnBarFill: 0
-  m_DisappearOnBarFill: 0
---- !u!82 &2054422150
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2054422141}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
 --- !u!1001 &2135996116
 Prefab:
   m_ObjectHideFlags: 0
@@ -1938,7 +1493,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010781304328, guid: 94535646a257e4a2da01af1a09de8007, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4000010781304328, guid: 94535646a257e4a2da01af1a09de8007, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
