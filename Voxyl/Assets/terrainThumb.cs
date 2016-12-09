@@ -21,6 +21,7 @@ public class terrainThumb : MonoBehaviour {
 			child.gameObject.SetActive(false);
 		}
 
+		print(terrain);	
 		if (terrain) { terrain.SetActive(true); }
 
 		transform.parent.gameObject.SetActive(false);
