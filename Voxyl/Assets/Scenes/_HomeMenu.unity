@@ -740,12 +740,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 177090, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
       propertyPath: m_Name
-      value: loadPlane
+      value: continueButton
       objectReference: {fileID: 0}
     - target: {fileID: 2301440, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4e3c47a0d64fd447ba78abc42840e523, type: 2}
+      objectReference: {fileID: 2100000, guid: 9523d10135cc843399074830d0747b9f, type: 2}
     - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
       propertyPath: m_SceneToLoad
       value: MainMenu
@@ -1373,12 +1373,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 177090, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
       propertyPath: m_Name
-      value: continuePlane
+      value: loadButton
       objectReference: {fileID: 0}
     - target: {fileID: 2301440, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9523d10135cc843399074830d0747b9f, type: 2}
+      objectReference: {fileID: 2100000, guid: 4e3c47a0d64fd447ba78abc42840e523, type: 2}
     - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
       propertyPath: m_SceneToLoad
       value: MainMenu
