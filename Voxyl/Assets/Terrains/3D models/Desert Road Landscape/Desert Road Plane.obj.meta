@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 0b78dc0706761408f98cc0921d68bec2
+timeCreated: 1481252234
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Depth_Map
+    100002: Depth_Map_MeshPart0
+    100004: Depth_Map_MeshPart1
+    100006: Depth_Map_MeshPart10
+    100008: Depth_Map_MeshPart11
+    100010: Depth_Map_MeshPart12
+    100012: Depth_Map_MeshPart13
+    100014: Depth_Map_MeshPart14
+    100016: Depth_Map_MeshPart15
+    100018: Depth_Map_MeshPart16
+    100020: Depth_Map_MeshPart17
+    100022: Depth_Map_MeshPart2
+    100024: Depth_Map_MeshPart3
+    100026: Depth_Map_MeshPart4
+    100028: Depth_Map_MeshPart5
+    100030: Depth_Map_MeshPart6
+    100032: Depth_Map_MeshPart7
+    100034: Depth_Map_MeshPart8
+    100036: Depth_Map_MeshPart9
+    100038: //RootNode
+    400000: Depth_Map
+    400002: Depth_Map_MeshPart0
+    400004: Depth_Map_MeshPart1
+    400006: Depth_Map_MeshPart10
+    400008: Depth_Map_MeshPart11
+    400010: Depth_Map_MeshPart12
+    400012: Depth_Map_MeshPart13
+    400014: Depth_Map_MeshPart14
+    400016: Depth_Map_MeshPart15
+    400018: Depth_Map_MeshPart16
+    400020: Depth_Map_MeshPart17
+    400022: Depth_Map_MeshPart2
+    400024: Depth_Map_MeshPart3
+    400026: Depth_Map_MeshPart4
+    400028: Depth_Map_MeshPart5
+    400030: Depth_Map_MeshPart6
+    400032: Depth_Map_MeshPart7
+    400034: Depth_Map_MeshPart8
+    400036: Depth_Map_MeshPart9
+    400038: //RootNode
+    2300000: Depth_Map_MeshPart0
+    2300002: Depth_Map_MeshPart1
+    2300004: Depth_Map_MeshPart10
+    2300006: Depth_Map_MeshPart11
+    2300008: Depth_Map_MeshPart12
+    2300010: Depth_Map_MeshPart13
+    2300012: Depth_Map_MeshPart14
+    2300014: Depth_Map_MeshPart15
+    2300016: Depth_Map_MeshPart16
+    2300018: Depth_Map_MeshPart17
+    2300020: Depth_Map_MeshPart2
+    2300022: Depth_Map_MeshPart3
+    2300024: Depth_Map_MeshPart4
+    2300026: Depth_Map_MeshPart5
+    2300028: Depth_Map_MeshPart6
+    2300030: Depth_Map_MeshPart7
+    2300032: Depth_Map_MeshPart8
+    2300034: Depth_Map_MeshPart9
+    3300000: Depth_Map_MeshPart0
+    3300002: Depth_Map_MeshPart1
+    3300004: Depth_Map_MeshPart10
+    3300006: Depth_Map_MeshPart11
+    3300008: Depth_Map_MeshPart12
+    3300010: Depth_Map_MeshPart13
+    3300012: Depth_Map_MeshPart14
+    3300014: Depth_Map_MeshPart15
+    3300016: Depth_Map_MeshPart16
+    3300018: Depth_Map_MeshPart17
+    3300020: Depth_Map_MeshPart2
+    3300022: Depth_Map_MeshPart3
+    3300024: Depth_Map_MeshPart4
+    3300026: Depth_Map_MeshPart5
+    3300028: Depth_Map_MeshPart6
+    3300030: Depth_Map_MeshPart7
+    3300032: Depth_Map_MeshPart8
+    3300034: Depth_Map_MeshPart9
+    4300000: Depth_Map_MeshPart0
+    4300002: Depth_Map_MeshPart1
+    4300004: Depth_Map_MeshPart2
+    4300006: Depth_Map_MeshPart3
+    4300008: Depth_Map_MeshPart4
+    4300010: Depth_Map_MeshPart5
+    4300012: Depth_Map_MeshPart6
+    4300014: Depth_Map_MeshPart7
+    4300016: Depth_Map_MeshPart8
+    4300018: Depth_Map_MeshPart9
+    4300020: Depth_Map_MeshPart10
+    4300022: Depth_Map_MeshPart11
+    4300024: Depth_Map_MeshPart12
+    4300026: Depth_Map_MeshPart13
+    4300028: Depth_Map_MeshPart14
+    4300030: Depth_Map_MeshPart15
+    4300032: Depth_Map_MeshPart16
+    4300034: Depth_Map_MeshPart17
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
