@@ -68,6 +68,24 @@ public class DragAndDroppableAudio : MonoBehaviour
         {
             // follow gaze
             transform.position = m_Cam.position + m_Cam.forward * distance;
+
+			// computes angle of view between x and z planes
+			double zxtangent = transform.position.z/transform.position.x;
+			// computes tangent of angle of view between y and x planes, accounting for the 2pixel offset of camera
+			double yxtangent = (transform.position.y-2) / transform.position.x;
+
+			// If curious (ie last name bertrand), READ:
+			// Essentially, zx tangent and yx tangent give you an idea of the angle of the viewer.
+			// zxtangent is for the viewer's left<->right view
+			// yxtangent is for the viewer's up<->down view 
+			// The ranges below are associated with the angle of view where the viewer is looking 
+			// at the trash can view in the current menu. If the menu is changed, these must change too!
+			print("zxtangent: " + zxtangent);
+			print("yxtangent: " + yxtangent);
+			if (transform.position.x < 0 && transform.position.y < 0 && transform.position.z > 0 &&
+				yxtangent > 0.6 && yxtangent < 1 && zxtangent < -.2 && zxtangent > -.7) {
+				Destroy (gameObject);
+			} 
         }
     }
 }

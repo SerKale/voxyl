@@ -75,6 +75,10 @@ public class DragAndDroppable : MonoBehaviour {
 			double zxtangent = transform.position.z/transform.position.x;
 			// computes tangent of angle of view between y and x planes, accounting for the 2pixel offset of camera
 			double yxtangent = (transform.position.y-2) / transform.position.x;
+
+			// Essentially, this says
+			print("zxtangent: " + zxtangent);
+			print("yxtangent: " + yxtangent);
 			if (transform.position.x < 0 && transform.position.y < 0 && transform.position.z > 0 &&
 				yxtangent > 0.6 && yxtangent < 1 && zxtangent < -.2 && zxtangent > -.7) {
 				Destroy (gameObject);
