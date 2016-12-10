@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/_Splash.unity
   - enabled: 1
+    path: Assets/Scenes/__Splash.unity
+  - enabled: 1
     path: Assets/Scenes/_HomeMenu.unity
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
@@ -18,8 +20,8 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/IntroMenu.unity
   - enabled: 1
-    path: Assets/Scenes/__Splash.unity
-  - enabled: 1
     path: Assets/Scenes/__ShareScreen.unity
   - enabled: 1
     path: Assets/Scenes/__SavingSplash.unity
+  - enabled: 1
+    path: Assets/Scenes/JumpFromPaper.unity
